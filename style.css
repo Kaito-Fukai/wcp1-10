@@ -143,6 +143,7 @@ header {
 .portfolio-box {
 	text-align: center;
 	margin: 0 auto;
+	width: 90%;
 }
 .portfolio-headline, .feature-headline, .profile-headline, .contact-headline {
 	padding-top: 90px;
@@ -154,8 +155,7 @@ header {
 	height: 3px;
 	width: 70px;
 	background-color: #EC715F;
-	margin-top: 8px;
-	margin: 0 auto;
+	margin: 8px auto;
 }
 .portfolio-text, .feature-text, .profile-text, .contact-text{
 	padding: 30px 0 30px 0;
@@ -249,7 +249,7 @@ header {
 	width: 512px;
 	text-align: left;
 }
-.profile-Myname, .contact-index {
+.profile-Myname, .contact-index, .contact-index-sns {
 	font-size: 20px;
 	margin-bottom: 5px;
 }
@@ -274,10 +274,23 @@ header {
 	margin: 0 auto;
 	width: 250px;
 }
+
+.contact-index {
+	width: 250px;
+	padding-left: 80px;
+}
+
+.contact-index-sns {
+	width: 250px;
+	padding-right: 80px;
+}
+
 .contact-info {
 	font-size: 16px;
 	margin-bottom: 20px;
 	text-decoration: underline;
+	width: 250px;
+	padding-left: 80px;
 }
 .contact i {
 	float: left;
@@ -324,9 +337,6 @@ footer {
 	.nav-drawer {
 		height: 100%;
 	}
-	.nav-open {
-
-	}
 
 	.main-visual {
 		width: 100%;
@@ -341,13 +351,16 @@ footer {
 		font-size: 18px;
 	}
 	.portfolio, .profile {
-		width: 90%;
 		margin: 0 auto;
 	}
 	.portfolio-example {
 		width: 100%;
 	}
 	.feature {
+		width:100%;
+		margin: 0 auto;
+	}
+	.feature-inbox {
 		width: 90%;
 		margin: 0 auto;
 	}
@@ -389,6 +402,11 @@ footer {
 	.feature-strength:nth-child(2) {
 		margin: 0 auto;
 	}
+
+	.profile-box {
+		width: 90%;
+		margin: 0 auto;
+	}
 	.profile-contents {
 		width: 100%;
 		margin: 0 auto;
@@ -412,9 +430,13 @@ footer {
 		margin: 0 auto;
 	}
 	.contact {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 		padding-bottom: 90px;
+	}
+	.contact-outbox {
+		width: 90%;
+		margin: 0 auto;
 	}
 	.contact-info-box {
 		width: 100%;
@@ -430,6 +452,12 @@ footer {
 		margin: 0 auto;
 		width: 100%;
 	}
+	.contact-info, .contact-index, .contact-index-sns {
+		padding: 0px;
+    	margin: 5px auto 20px auto;
+   		text-align: center;
+   	}
+
 	.sns {
 		margin: 0 auto;
 		width: 174px;
